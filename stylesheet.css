@@ -1,0 +1,15 @@
+body {
+	max-width: 650px;
+	margin: 30px auto;
+	color: hsl(0, 0%, 25%);
+	line-height: 1.7;
+	font-size: 18px;
+}
+
+/* I could have not used the "italic" class and directly apply italic to 
+the <span> or use <em> but the fact I did it this way can permit the 
+code to evolve if it would ever need more <span>s */
+
+.italic {
+	font-style: italic;
+}
